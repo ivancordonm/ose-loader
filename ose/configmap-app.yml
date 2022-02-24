@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: $(application_name}-$(environment}
+labels:
+    application: $(application_name}-$(environment}
+    app: $(application_name}-$(environment}
+filename:
+  - application.yml
+  - security.yml
